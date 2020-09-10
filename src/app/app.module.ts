@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatListModule } from '@angular/material/list';
 import { UsersListComponent } from './users-list/users-list.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [AppComponent, UsersListComponent],
@@ -14,6 +16,8 @@ import { UsersListComponent } from './users-list/users-list.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatListModule,
+    MatSelectModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
