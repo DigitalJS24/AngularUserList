@@ -8,6 +8,7 @@ import { MatListModule } from '@angular/material/list';
 import { UsersListComponent } from './users-list/users-list.component';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [AppComponent, UsersListComponent],
@@ -18,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatSelectModule,
     MatInputModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
