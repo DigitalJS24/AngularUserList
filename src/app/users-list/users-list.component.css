@@ -3,7 +3,7 @@
 }
 
 .item {
-  width: 280px;
+  width: 220px;
   display: inline-block;
 }
 
@@ -12,4 +12,15 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 20px;
+}
+
+.itemInput {
+  width: 150px;
+}
+.butt {
+  height: 50px;
+}
+
+.usersTitle {
+  text-align: center;
 }
